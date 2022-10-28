@@ -3,8 +3,9 @@ h1 {
     text-align: center;
 }
 
+
 div {
-    width: 50%px;
+    width: 100%px;
 
     color: rgb(28, 122, 215);
 
@@ -14,17 +15,18 @@ div {
     font-size: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
-
-
 }
 
 
 span {
-    color: darkblue;
+    color: rgb(176, 46, 232);
 
-    font-size: small;
+    font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
 }
+
+
 
 .center {
     display: block;
@@ -33,12 +35,15 @@ span {
     width: 100%;
 }
 
-button {
-    color: rgb(18, 5, 31);
+.button {
+    color: rgb(99, 31, 167);
+    position: relative;
+    background-color: aquamarine;
 }
 
 p {
     text-align: center;
     font-size: medium;
     color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
