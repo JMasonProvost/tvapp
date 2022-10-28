@@ -15,6 +15,7 @@ div {
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 
+
 }
 
 
@@ -34,4 +35,10 @@ span {
 
 button {
     color: rgb(18, 5, 31);
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+    color: black;
 }
