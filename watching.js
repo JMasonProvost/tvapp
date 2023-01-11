@@ -7,3 +7,8 @@ for (let i = 1; i < 10; i++) {
     newImg.src = `${baseURL}${i}.jpg`
     container.appendChild(newImg)
 }
+
+const button = document.querySelector('button');
+button.addEventListener('click', () => {
+    alert("Hello! Welcome!!")
+})
