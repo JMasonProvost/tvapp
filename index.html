@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>What TV Show Was I Watching?</title>
-    <link rel="stylesheet" href="tvapp.css" />
-  </head>
 
-  <body>
-    <div>
-      <img
-        src="https://soldierswifecrazylife.com/wp-content/uploads/2022/10/Feeling-Strong-as-a-MilSpouse-It-Doesnt-Always-Happen-Facebook-Post-34.png"
-        alt="descriptive text"
-        class="center"
-      />
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What TV Show Was I Watching?</title>
+  <link rel="stylesheet" href="tvapp.css" />
+</head>
 
-    <h1>What TV Show Was I Watching?</h1>
+<body>
+  <div>
+    <img
+      src="https://soldierswifecrazylife.com/wp-content/uploads/2022/10/Feeling-Strong-as-a-MilSpouse-It-Doesnt-Always-Happen-Facebook-Post-34.png"
+      alt="descriptive text" class="center" />
+  </div>
 
-    <p>
-      Ever feel like you can't keep up with what TV shows you are watching? You
-      know a new TV show is coming out but can't remember when? Use "What TV
-      Show Was I Watching?" to stay organized and never miss a show!"
-    </p>
+  <h1>What TV Show Was I Watching?</h1>
 
-    <span>
-      <div class="center">
-        <button id="watching-btn">
-          <h3>Watching</h3>
-        </button>
 
-        <button id="watched-btn">
-          <h3>Watched</h3>
-        </button>
+  <p>
+    Ever feel like you can't keep up with what TV shows you are watching? You
+    know a new TV show is coming out but can't remember when? Use "What TV
+    Show Was I Watching?" to stay organized and never miss a show!"
+  </p>
 
-        <button id="coming-soon-btn">
-          <h3>Coming Soon</h3>
-        </button>
-      </div>
-    </span>
-    <a href="clarksville.html">Moving to Clarksville?</a>
-    <div>
-      <button id="create-btn">CREATE</button>
-      <button id="del-btn">DELETE</button>
-    </div>
-    <div id="value-display"></div>
-  </body>
-  <script src="utils/localStorage.js"></script>
-  <script src="watched.js"></script>
+
+  <form action="/shows" id="showsForm">
+    What are you watching? <input type="text" id="showsName">
+    <button>Submit</button>
+  </form>
+  <h2>Master List of Shows</h2>
+  <ul id="list"></ul>
+  <p></p>
+  My Watching List
+  <p>&nbsp;</p>
+
+
+  <a href="watching.html">What I am Watching</a>
+  <p></p>
+  <a href="watched.html">What I Have Watched</a>
+  <p></p>
+  <a href="comingsoon.html">What's Coming Soon</a>
+  <p></p>
+  <a href="clarksville.html">Moving to Clarksville?</a>
+  <div>
+    <button id="create-btn">CREATE</button>
+    <button id="del-btn">DELETE</button>
+  </div>
+  <div id="value-display"></div>
+</body>
+<script src="utils/localStorage.js"></script>
+<script src="watched.js"></script>
+
 </html>
